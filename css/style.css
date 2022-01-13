@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top{
+    background-color: #424344;
+}
+.adress{
+    margin-top: 25px;
+    font-weight: 500;
+    display: flex;
+    margin: 10px 3px;
+    margin-left: -100px;
+}
+.icon{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+    color: white
+    
+}
+.icon:hover{
+    color: tomato;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.icon i{
+    color: tomato;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.contact-and-btn{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.social-list{
+    margin: 0;
+}
+
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 3px;
+}
+
+.social-link {
+    color: rgb(207, 206, 206);
+    font-size: 16px;
+}
+
+.social-link :hover{
+    transition: 0.5s;
+    color: white;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header-bottom .title a{
+    color: rgb(73, 72, 72);
+    font-size: 30px;
+    font-weight: 650;
+    margin-left: -100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.brandTool {
+    width: 8px;
+    height: 30px;
+    background-color: tomato;
+    margin-right: 5px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_list {        
+    margin: 0;
+}
+
+.nav_list li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: tomato;
+}
+
+.section1{
+    background-color: rgb(245, 244, 244);
+}
+
+.section1 .icon .icon-first-link{
+    color: tomato;
+}
+
+.section1 .icon .icon-second-link{
+    color: rgb(73, 72, 72);
+}
+
+.section1 .text :hover{
+    text-decoration: none;
+}
+
+.section1 .title{
+    color: rgb(73, 72, 72);
+}
+
+.section1 .content{
+    margin: 15px 0;
+    margin-left: -100px;
+}
+
+.services .icon-box {
+    text-align: center;
+    padding: 70px 20px;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ededed;
+}
+
+.services .icon-box .icon::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: -10px;
+    height: 100%;
+    width: 100%;
+    background: rgb(250, 224, 224);
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: translateZ(-1px);
+}
+
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    background: #ee715b;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    transform-style: preserve-3d;
+}
+
+.services .icon-box h4 a{
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+
+.services .icon-box .icon i{
+    color: white;
+}
+
+.services .icon-box:hover{
+    background: tomato;
+}
+
+.services .icon-box:hover{
+    color: white;
+}
+
+.skills .our-title h2{
+    text-align: center;
+}
+
+.skills .our-title .line a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.skills .our-title .line .brandTooll{
+    width: 65px;
+    height: 4px;
+    background-color: tomato;
+    margin: 10px auto;
+}
+
+.skills .progress-bar{
+    background-color: tomato;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.skills{
+    margin-bottom: 70px;
+}
+
+footer .newsletter{
+    background-color: #404040;
+    padding: 40px 0;
+}
+
+footer .newsletter .subscribe .text{
+    color: white;
+}
+
+footer .newsletter .subscribe form{
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    padding: 22px 10px;
+    position: relative;
+    border-radius: 50px;
+}
+
+footer .newsletter .subscribe form input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background-color: tomato;
+    color: white;
+    transition: 0.5s;
+    border-radius: 50px;
+    width: 25%;
+}
+
+footer{
+    background-color: #424344;
+}
+
+#footer-info{
+    margin-bottom: 35px;
+}
+
+#footer-info .title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+}
+
+#footer-info .USEFUL-List ul li{
+    list-style: none;
+    margin: 13px 10px;
+}
+
+#footer-info .USEFUL-List ul li a{
+    color: white;
+}
+
+#footer-info .USEFUL-List ul li :hover{
+    text-decoration: none;
+}
+
+#footer-info .USEFUL-List ul li a i{
+    color: tomato;
+}
+
+#footer-info .USEFUL-List ul li :hover{
+    transition: 0.5s;
+    color: tomato;
+}
+
+#footer-info .OUR-List ul li{
+    list-style: none;
+    margin: 13px 10px;
+}
+
+#footer-info .OUR-List ul li a{
+    color: white;
+}
+
+#footer-info .OUR-List ul li :hover{
+    text-decoration: none;
+}
+
+#footer-info .OUR-List ul li a i{
+    color: tomato;
+}
+
+#footer-info .OUR-List ul li :hover{
+    transition: 0.5s;
+    color: tomato;
+}
+
+#footer-info .CONTACT-List{
+    margin: 13px 0;
+}
+
+#footer-info .CONTACT-List p{
+    color: white;
+}
+
+#footer-info .About-Text p{
+    margin-top: 10px;
+    color: white;
+}
+
+#footer-info .Social-Programs ul{
+    display: flex;
+}
+
+#footer-info .Social-Programs ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+#footer-info .Social-Programs ul li a{
+    color: white;
+}
+
+#footer-info .Social-Programs ul li a :hover{
+    color: tomato;
+    transition: 0.5s;
+}
+
+#footer-copyright{
+    background-color: #404040;
+    padding: 35px 0;
+}
+
+#footer-copyright .copyright{
+    color: white;
+    text-align: center;
+}
+
+#footer-copyright .copyright a{
+    color: tomato;
+    transition: 0.5s;
+}
+
+#footer-copyright .copyright a:hover{
+    text-decoration: none;
+    color: rgb(163, 59, 41);
+}
